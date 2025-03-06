@@ -1,0 +1,34 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\artem\.nuget\packages\verify\28.9.0\lib\net8.0\Verify.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3a007781_002D6872_002D47b9_002Da4ff_002Defb9153102ff/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PackagePersistenceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.PersistenceTests.PackagePersistenceTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b0bf7616_002D2167_002D471d_002D8a97_002D5ae483a7c628/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Create_User_Should_Fail" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.DomainTests.UserTests.Create_User_Should_Fail&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.DomainTests.UserTests.Create_User_Should_Successfull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserApplicationTests.Create_User_Should_FailAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Change_Certificate_Should_SuccessfullAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Create_User_Should_SuccessfullAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Create_User_Should_FailAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Change_Certificate_Should_FailAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.CreateUserRequestHandlerTest.Create_User_Request_Handler_Should_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.CreateUserRequestHandlerTest.Update_Certificate_Request_Handler_Should_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.CreateUserRequestHandlerTest.Create_User_Request_Handler_Should_Fail&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Get_User_By_Id_Should_SuccessAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Get_User_By_Id_Should_FailAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Zip_Create_Should_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Zip_Deflate_Create_Should_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Zip_Decompress_Should_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Zip_Create_Should_Fail&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.ApplicationTests.UserPersistenceTests.Zip_Decompress_Should_Fail&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.PersistenceTests.PackagePersistenceTests.Get_Inbound_Packages_Should_SuccessAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.PersistenceTests.PackagePersistenceTests.Get_Inbound_Packages_Should_FailAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0566A7B9-F85B-465E-859C-27BA103CD033::net8.0::Server.Tests.PersistenceTests.PackagePersistenceTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/SpawnedProcessesKnownList/=rider64_002Eexe/@EntryIndexedValue">KillOrphaned</s:String></wpf:ResourceDictionary>

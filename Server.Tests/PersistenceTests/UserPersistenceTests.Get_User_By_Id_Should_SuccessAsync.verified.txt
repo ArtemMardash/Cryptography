@@ -1,0 +1,8 @@
+﻿{
+  Id: Guid_1,
+  UserName: Artem1234,
+  Certificate: {
+    B64: 12345678901234,
+    SKID: 09876543211234
+  }
+}

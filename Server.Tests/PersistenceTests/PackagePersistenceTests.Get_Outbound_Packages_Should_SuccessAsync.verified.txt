@@ -1,0 +1,8 @@
+﻿[
+  {
+    Id: Guid_1,
+    IsDelivered: false,
+    FilePath: ./files/file_b996efb9-b461-4d5a-937e-3e9fb0582723_69a7e662-a38b-4bb9-a7b6-7a2a70a5704e_770d187e-9ce6-48fa-823e-bceae8976782.zip,
+    CreationDate: DateTime_1
+  }
+]

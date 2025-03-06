@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RZSPxKHHIJfQ6oJbsjqgWJ9qMmUyIa6Sb4Gx+qizU6KznsA8pWco+AQV3vy4DCpoRW/r3HvxNidMztXp6gwNfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artem\\RiderProjects\\Cryptography\\Cryptography\\Cryptography.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artem\\.nuget\\packages\\bouncycastle.netcore\\2.2.1\\bouncycastle.netcore.2.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

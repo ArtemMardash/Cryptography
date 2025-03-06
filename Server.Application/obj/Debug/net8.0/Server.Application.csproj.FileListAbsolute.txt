@@ -1,0 +1,15 @@
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\bin\Debug\net8.0\Server.Application.deps.json
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\bin\Debug\net8.0\Server.Application.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\bin\Debug\net8.0\Server.Application.pdb
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\bin\Debug\net8.0\Server.Domain.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\bin\Debug\net8.0\Server.Domain.pdb
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.csproj.AssemblyReference.cache
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.AssemblyInfoInputs.cache
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.AssemblyInfo.cs
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.csproj.CoreCompileInputs.cache
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.A.E7C9053D.Up2Date
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\refint\Server.Application.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.pdb
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\ref\Server.Application.dll

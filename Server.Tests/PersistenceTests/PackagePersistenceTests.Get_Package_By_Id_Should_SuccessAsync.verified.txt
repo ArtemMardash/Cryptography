@@ -1,0 +1,22 @@
+﻿{
+  Id: Guid_1,
+  IsDelivered: false,
+  Sender: {
+    Id: Guid_2,
+    UserName: Artem1234569292,
+    Certificate: {
+      B64: 1234567890123479292,
+      SKID: 0987654321123479292
+    }
+  },
+  Recipient: {
+    Id: Guid_3,
+    UserName: Artem12345678282,
+    Certificate: {
+      B64: 777777778282,
+      SKID: 8888888888282
+    }
+  },
+  FilePath: ./files/file_88e8bea7-a7d1-4687-9244-ad94db9cc956_d08220f1-6751-481a-88ac-cfb7c6f80e3b_fdfdf220-d1cd-418e-82eb-655a71701f83.zip,
+  CreationDate: DateTime_1
+}

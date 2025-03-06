@@ -1,0 +1,17 @@
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\bin\Debug\net8.0\Server.Infrastructure.deps.json
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\bin\Debug\net8.0\Server.Infrastructure.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\bin\Debug\net8.0\Server.Infrastructure.pdb
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\bin\Debug\net8.0\Server.Application.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\bin\Debug\net8.0\Server.Domain.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\bin\Debug\net8.0\Server.Application.pdb
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\bin\Debug\net8.0\Server.Domain.pdb
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.AssemblyInfo.cs
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.I.7328B26C.Up2Date
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\refint\Server.Infrastructure.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.pdb
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\ref\Server.Infrastructure.dll

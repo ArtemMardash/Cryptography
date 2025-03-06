@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "534wRmx1dBcrYtqarlhRF9oXgD7ucBQCJ/LElyvN16s3f5xxQcyqrogoDSKoemWrSkO2y40wr58jvuVvRbCVPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artem\\RiderProjects\\Cryptography\\Server.Application\\Server.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artem\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\artem\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\artem\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
