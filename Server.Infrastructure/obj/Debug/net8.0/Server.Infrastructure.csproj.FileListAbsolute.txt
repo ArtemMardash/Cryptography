@@ -15,3 +15,4 @@ C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0
 C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\refint\Server.Infrastructure.dll
 C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.pdb
 C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\ref\Server.Infrastructure.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Infrastructure\obj\Debug\net8.0\Server.Infrastructure.sourcelink.json

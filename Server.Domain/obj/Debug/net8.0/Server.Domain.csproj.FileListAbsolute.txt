@@ -10,3 +10,4 @@ C:\Users\artem\RiderProjects\Cryptography\Server.Domain\obj\Debug\net8.0\Server.
 C:\Users\artem\RiderProjects\Cryptography\Server.Domain\obj\Debug\net8.0\refint\Server.Domain.dll
 C:\Users\artem\RiderProjects\Cryptography\Server.Domain\obj\Debug\net8.0\Server.Domain.pdb
 C:\Users\artem\RiderProjects\Cryptography\Server.Domain\obj\Debug\net8.0\ref\Server.Domain.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Domain\obj\Debug\net8.0\Server.Domain.sourcelink.json

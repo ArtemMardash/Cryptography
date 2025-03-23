@@ -7,21 +7,23 @@ public class ZipService : IZipService
 {
     public async Task<byte[]> CompressAsync(Dictionary<string, byte[]> dataToZip, CancellationToken cancellationToken)
     {
-        var zipFileName = $"file-{Guid.NewGuid()}.zip";
-        var zip = ZipFile.Open(zipFileName, ZipArchiveMode.Create);
-        foreach (var file in dataToZip)
-        {
-            var entry = zip.CreateEntry(file.Key);
-            using (var entryStream = entry.Open())
-            using (var fileStream = new MemoryStream(file.Value))
+            //var zipFileName = $"file-{Guid.NewGuid()}.zip";
+            using var archiveStream = new MemoryStream();
+            using var zip = new ZipArchive(archiveStream, ZipArchiveMode.Create, true);
+            foreach (var file in dataToZip)
             {
-                await fileStream.CopyToAsync(entryStream, cancellationToken);
+                var entry = zip.CreateEntry(file.Key);
+                using (var entryStream = entry.Open())
+                using (var fileStream = new MemoryStream(file.Value))
+                {
+                    await fileStream.CopyToAsync(entryStream, cancellationToken);
+                    fileStream.Position = 0;
+                }
             }
-        }
-
-        zip.Dispose();
-        return await File.ReadAllBytesAsync(zipFileName, cancellationToken);
+            
+            return archiveStream.ToArray();
     }
+
 
     public async Task<Dictionary<string, byte[]>> DeCompressAsync(byte[] file, CancellationToken cancellationToken)
     {

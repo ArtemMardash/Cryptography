@@ -13,3 +13,4 @@ C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Se
 C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\refint\Server.Application.dll
 C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.pdb
 C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\ref\Server.Application.dll
+C:\Users\artem\RiderProjects\Cryptography\Server.Application\obj\Debug\net8.0\Server.Application.sourcelink.json

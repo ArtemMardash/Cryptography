@@ -1,4 +1,5 @@
 using Server.Application.Interfaces;
+using Server.Domain.Entities;
 
 namespace Server.BackgroundJob;
 
@@ -22,5 +23,6 @@ public class PackageHandler
             result.Add((package.Id, fileName, bytes));
         }
         return result;
-    } 
+    }
+    
 }

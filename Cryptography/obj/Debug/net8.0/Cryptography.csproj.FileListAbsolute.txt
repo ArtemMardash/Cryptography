@@ -20,3 +20,4 @@ C:\Users\artem\RiderProjects\Cryptography\Cryptography\obj\Debug\net8.0\Cryptogr
 C:\Users\artem\RiderProjects\Cryptography\Cryptography\obj\Debug\net8.0\ref\Cryptography.dll
 C:\Users\artem\RiderProjects\Cryptography\Cryptography\bin\Debug\net8.0\PrivateKeyCert.pfx
 C:\Users\artem\RiderProjects\Cryptography\Cryptography\bin\Debug\net8.0\ToEncrypt.txt
+C:\Users\artem\RiderProjects\Cryptography\Cryptography\obj\Debug\net8.0\Cryptography.sourcelink.json

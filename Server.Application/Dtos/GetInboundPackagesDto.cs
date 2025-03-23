@@ -3,12 +3,13 @@ using MediatR;
 
 namespace Server.Application.Dtos;
 
-public class GetInboundPackagesDto: IRequest<GetInboundPackagesResult>
+public class GetInboundPackagesDto: IRequest<GetInboundPackagesResultDto>
 {
     public Guid UserId { get; set; }
 }
 
-public class GetInboundPackagesResult
+public class GetInboundPackagesResultDto
 {
     public List<PackageDto> Packages { get; set; } = new();
+    
 }

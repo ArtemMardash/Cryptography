@@ -49,26 +49,78 @@ public class UserRepository : IUserRepository
 
     public async Task<User> GetUserByIdAsync(Guid id, CancellationToken cancellationToken)
     {
-        var userDb = await _serverContext.Users
+        var senderDb = await _serverContext.Users
             .Include(u=>u.Packages)
             .FirstOrDefaultAsync(u => u.Id == id, cancellationToken);
-        if (userDb == null)
+        if (senderDb == null)
         {
-            throw new ArgumentNullException(nameof(userDb), "There is no user with such Id");
+            throw new ArgumentNullException(nameof(senderDb), "There is no user with such Id");
         }
 
-        return UserDbToUser(userDb);
+        var recipientsId = senderDb.Packages.Select(p => p.RecipientId).Distinct();
+        var recipientsDb = _serverContext.Users.Where(u => recipientsId.Contains(u.Id));
+        var recipients = recipientsDb.Select(u => new User(
+            u.Id,
+            u.UserName,
+            new Certificate(u.B64, u.SKID),
+            new List<Package>()
+        )).ToList();
+        
+        var sender = new User(
+            id: senderDb.Id,
+            userName: senderDb.UserName,
+            new Certificate(b64: senderDb.B64, skid: senderDb.SKID),
+            new List<Package>());
+
+        var packages = senderDb.Packages.Select(p => new Package(
+            id: p.Id,
+            isDelivered: p.IsDelivered,
+            sender: sender,
+            recipient: recipients.First(u => u.Id == p.RecipientId),
+            filePath: p.FilePath,
+            creationDate: p.CreationDate,
+            completedTime: p.CompletedTime
+        ));
+        sender.Packages.AddRange(packages);
+        return sender;
     }
 
     public async Task<User> GetUserByUserNameAsync(string userName, CancellationToken cancellationToken)
     {
-        var userDb = await _serverContext.Users.FirstOrDefaultAsync(u => u.UserName == userName, cancellationToken);
-        if (userDb == null)
+        var senderDb = await _serverContext.Users
+            .Include(u=>u.Packages)
+            .FirstOrDefaultAsync(u => u.UserName == userName, cancellationToken);
+        if (senderDb == null)
         {
-            throw new ArgumentNullException(nameof(userDb), "There is no user with such user name");
+            throw new ArgumentNullException(nameof(senderDb), "There is no user with such user name");
         }
 
-        return UserDbToUser(userDb);
+        var recipientsId = senderDb.Packages.Select(p => p.RecipientId).Distinct();
+        var recipientsDb = _serverContext.Users.Where(u => recipientsId.Contains(u.Id));
+        var recipients = recipientsDb.Select(u => new User(
+            u.Id,
+            u.UserName,
+            new Certificate(u.B64, u.SKID),
+            new List<Package>()
+        )).ToList();
+        
+        var sender = new User(
+            id: senderDb.Id,
+            userName: senderDb.UserName,
+            new Certificate(b64: senderDb.B64, skid: senderDb.SKID),
+            new List<Package>());
+
+        var packages = senderDb.Packages.Select(p => new Package(
+            id: p.Id,
+            isDelivered: p.IsDelivered,
+            sender: sender,
+            recipient: recipients.First(u => u.Id == p.RecipientId),
+            filePath: p.FilePath,
+            creationDate: p.CreationDate,
+            completedTime: p.CompletedTime
+        ));
+        sender.Packages.AddRange(packages);
+        return sender;
     }
 
 
@@ -124,11 +176,13 @@ public class UserRepository : IUserRepository
         return userDb;
     }
 
-    internal User UserDbToUser(UserDb userDb)
-    {
-        return new User(userDb.Id, userDb.UserName, new Certificate(userDb.B64, userDb.SKID),
-            userDb.Packages.Select(PackageDbToPackage).ToList());
-    }
+    // internal User UserDbToUser(UserDb userDb)
+    // {
+    //     var recipientsId = userDb.Packages.Select(p => p.RecipientId).Distinct();
+    //     var recipients = _serverContext.Users.Where(u => recipientsId.Contains(u.Id)).ToList();
+    //     return new User(userDb.Id, userDb.UserName, new Certificate(userDb.B64, userDb.SKID),
+    //         userDb.Packages.Select(p=>PackageDbToPackage(p, recipients.First(u=>u.Id == p.RecipientId))).ToList());
+    // }
 
     internal PackageDb PackageToPackageDb(Package package, UserDb sender)
     {
@@ -144,16 +198,11 @@ public class UserRepository : IUserRepository
         };
     }
 
-    internal Package PackageDbToPackage(PackageDb packageDb)
-    {
-        var recipient = _serverContext.Users.Find(packageDb.RecipientId);
-        if (recipient == null)
-        {
-            throw new ArgumentNullException(nameof(recipient), "There is no user with such Id");
-        }
-        return new Package(packageDb.Id, packageDb.IsDelivered, UserDbToUser(packageDb.Sender),UserDbToUser(recipient)
-            , packageDb.FilePath, packageDb.CreationDate, packageDb.CompletedTime);
-    }
+    // internal Package PackageDbToPackage(PackageDb packageDb, User recipient)
+    // {
+    //     return new Package(packageDb.Id, packageDb.IsDelivered, UserDbToUser(packageDb.Sender),recipient
+    //         , packageDb.FilePath, packageDb.CreationDate, packageDb.CompletedTime);
+    // }
 
 
 }
